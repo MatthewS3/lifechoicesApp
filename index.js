@@ -1,0 +1,1 @@
+console.log("make sure that in .gitignore that it has node_modules, there must be a s otherwise it wont read it and is will display");
