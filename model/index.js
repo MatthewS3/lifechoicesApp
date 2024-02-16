@@ -1,5 +1,5 @@
-import { Users } from "./Users";
-import { Products } from "./Products";
+import { Users } from "./Users.js";
+import { Products } from "./Products.js";
 // CREATE OBJECTS
 let users = new Users()
 let products = new Products()
