@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Express Example</h1>
+    <table class="table">
+        <caption>
+            <h3>General Routing:</h3>
+        </caption>
+        <thead>
+            <th>Path</th>
+            <th>HTTP Methods</th>
+            <th>Description</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>/</td>
+                <td>GET</td>
+                <td>Display the Home Page</td>
+            </tr>
+            <tr>
+                <td colspan="3">You must log in first.</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table class="table">
+        <caption>
+            <h3>User Routing:</h3>
+        </caption>
+        <thead>
+            <th>Path</th>
+            <th>HTTP Methods</th>
+            <th>Description</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>/Users/</td>
+                <td>GET</td>
+                <td>Get all the users</td>   
+            </tr>
+            <tr>
+                <td>/User/:id</td>
+                <td>GET</td>
+                <td>Fetch a specific User</td>               
+            </tr>
+            <tr>
+                <td>/User/register</td>
+                <td>POST</td>
+                <td>Register a new User</td>               
+            </tr>
+            <tr>
+                <td colspan="3">You must log in first.</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table class="table">
+        <caption>
+            <h3>Product Routing:</h3>
+        </caption>
+        <thead>
+            <th>Path</th>
+            <th>HTTP Methods</th>
+            <th>Description</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>/Product/</td>
+                <td>GET</td>
+                <td>To display all products</td>
+            </tr>
+            <tr>
+                <td>/Products/:id</td>
+                <td>GET</td>
+                <td>Fetch a specific product</td>               
+            </tr>
+            <tr>
+                <td>/Products/addProducts</td>
+                <td>GET</td>
+                <td>Add a new Product</td>                
+            </tr>
+            <tr>
+                <td colspan="3">You must log in first.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
