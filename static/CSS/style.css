@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+/* Apply animation to table */
+    table {
+    border-collapse: collapse;
+    width: 900px;
+    animation: fadeIn 3s ease-in-out;
+}
+  
+/* Style table header */
+th, td {
+    border: 2px solid #111;
+    padding: 8px;
+    text-align: center;
+}
+  
+ /* Style alternate rows */
+tr:nth-child(even) {
+    background-color: yellowgreen;
+}
+
+/* MEDIA QUERIES: */
+
+/* Target devices with a width up to 767px (typically phones) */
+@media only screen and (max-width: 307px) {
+    /* Your CSS styles for phones here */
+}
