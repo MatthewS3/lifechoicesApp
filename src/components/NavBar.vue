@@ -35,6 +35,11 @@
               </router-link>
             </li>
             <li class="nav-item">
+            <router-link class="nav-link" to="/login">
+                Login 
+              </router-link>
+            </li>
+            <li class="nav-item">
             <router-link class="nav-link" to="/more">
                 More
               </router-link>
